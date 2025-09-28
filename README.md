@@ -8,7 +8,7 @@ _Retirar fondos hasta un máximo fijo por transacción (umbral), definido como i
 _Consultar el saldo y ver registros de depósitos/retiros.
 _Emitir eventos para el deposito y retiro
 
-Dirección del contrato desplegado
+Dirección del contrato desplegado:
 0xd9431156d2fb8fb892e67aa62d750b4be63f1c1c
 
 Instrucciones de despliegue
