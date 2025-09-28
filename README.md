@@ -1,11 +1,17 @@
 -Kipu-bank
 
 ¿Que es kipuBank?
+
 Es un contrato inteligente que funciona como un banco en el cual contaras con una boveda personal para gestionar tus eth de una manera segura 
+
 ¿Que nos permite KipuBank?
+
 _Depositar ETH en una bóveda personal, siempre que el límite global (bankCap) no se supere.
+
 _Retirar fondos hasta un máximo fijo por transacción (umbral), definido como inmutable en el despliegue.
+
 _Consultar el saldo y ver registros de depósitos/retiros.
+
 _Emitir eventos para el deposito y retiro
 
 Dirección del contrato desplegado:
