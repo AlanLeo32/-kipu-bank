@@ -87,10 +87,9 @@ contract KipuBank{
         return monto_total_depositos;
     }
     /// @notice Consulta el saldo de tu bóveda
-    /// @param cliente Dirección del cliente
     /// @return balance Monto de ETH en la bóveda
-    function consultaSaldo(address cliente) external view returns (uint256 balance) {
-        return depositos[cliente];
+    function consultaSaldo() external view returns (uint256 balance) {
+        return depositos[msg.sender];
     }
     //@notice controla que el retiro sea valido
     //@param monto cantidad que el usuario solicita retirar
@@ -104,4 +103,5 @@ contract KipuBank{
     function _validarDeposito(uint256 monto) private view  {
         if(monto_total_depositos+monto>bankCap) revert LimiteSuperado(monto,bankCap);
     }
+    
 }
