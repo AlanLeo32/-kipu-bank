@@ -1,4 +1,4 @@
-<img width="942" height="479" alt="image" src="https://github.com/user-attachments/assets/a180a3c9-ba8b-41e4-858e-2226fe561bc3" /># -kipu-bank
+-kipu-bank
 ¿Que es kipuBank?
 Es un contrato inteligente que funciona como un banco en el cual contaras con una boveda personal para gestionar tus eth de una manera segura 
 ¿Que nos permite KipuBank?
