@@ -1,4 +1,5 @@
--kipu-bank
+-Kipu-bank
+
 ¿Que es kipuBank?
 Es un contrato inteligente que funciona como un banco en el cual contaras con una boveda personal para gestionar tus eth de una manera segura 
 ¿Que nos permite KipuBank?
